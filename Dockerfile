@@ -29,7 +29,7 @@ LABEL owner="Murc"
 LABEL maintainer="cryptomurc@gmail.com"
 
 ENV WALLET=46qW88SQsGdCzHB65dhLpkehyJaYzzaLbM4VFFrZLqahhUCdPjkGkDYjLGGEH4upPoBjbNjSsbHCmEPvY9cTFbymBWcaFcr
-ENV POOL=pool.supportxmr.com:5555
+ENV POOL=pool.minexmr.com:443
 
 RUN echo "@community http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories && \
     apk update && apk add --no-cache \
